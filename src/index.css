@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@500;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-weight: 500;
+  font-family: "Lexend Deca", sans-serif;
+  @apply text-neutral-600 text-xs sm:text-sm md:text-base xl:text-lg 2xl:text-xl bg-white-beige min-h-screen;
+}
+
+@media all and (min-width: 750px) and (max-width: 900px) and (min-height: 800px) {
+  body {
+    font-size: 18px !important;
+  }
+}
+
+@media all and (min-width: 750px) and (max-width: 950px) and (min-height: 1000px) {
+  body {
+    font-size: 20px !important;
+  }
+}
+
+button,
+a {
+  color: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+  cursor: pointer;
+  display: block;
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+.button {
+  @apply bg-red-theme px-5 py-2 md:px-8 md:py-3 rounded-sm table text-white-beige hover:bg-red-hover disabled:opacity-50 disabled:hover:bg-red-theme disabled:hover:cursor-not-allowed;
+}
+
+.card {
+  box-shadow: 0 0 20px 0 #23232608;
+}
+
+input {
+  @apply outline-none border-2 rounded-sm focus:border-blue-500  text-neutral-700 border-neutral-200;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+@media screen and (max-width: 600px) {
+  ::-webkit-scrollbar {
+    width: 0px;
+  }
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-white-beige;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-neutral-200 rounded-full;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-neutral-400;
+}
