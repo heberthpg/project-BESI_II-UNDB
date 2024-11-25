@@ -15,3 +15,4 @@ cd appshop
 yarn
 yarn dev
 ```
+Nomes: Luis Felipe Taveira Barbosa, Josemar Torres, Heberth Carvalho, Madson Cardoso
