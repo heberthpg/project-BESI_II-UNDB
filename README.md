@@ -6,7 +6,7 @@
 - Filtrar por categoria, nome do produto e faixa de preço
 
 ## Tecnologias
-React JS, TypeScript, Tailwind, Redux toolkit, Figma
+React JS, TypeScript, Tailwind, Redux toolkit
 
 ## Como usar
 
