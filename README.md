@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 ## Principais funcionalidades
 
 - Adicionar e remover itens do carrinho
