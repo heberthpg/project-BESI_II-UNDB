@@ -11,7 +11,7 @@ React JS, TypeScript, Tailwind, Redux toolkit, Figma
 ## Como usar
 
 ```
-git clone https://github.com/Luisfelipedev27/appshop.git
+git clone https://github.com/heberthpg/project-BESI_II-UNDB.git
 cd appshop
 yarn
 yarn dev
