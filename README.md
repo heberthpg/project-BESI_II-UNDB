@@ -16,10 +16,6 @@ cd appshop
 yarn
 yarn dev
 ```
-Nomes: Luis Felipe Taveira Barbosa, Josemar Torres, Heberth Carvalho, Madson Cardoso
-=======
-
-#Ecormece (Loja online)
 
 
 
@@ -29,8 +25,5 @@ Nomes: Luis Felipe Taveira Barbosa, Josemar Torres, Heberth Carvalho, Madson Car
 -  @josemarsilva
 -  madsoncardoso
 
- ##  Tecnologias
 
-  <img src="https://skillicons.dev/icons?i=py" height="40" alt="python logo"  />
-  <img width="12" />
->>>>>>> b6d6820a152acc50ee421be4a58e3f5214bf6a29
+
